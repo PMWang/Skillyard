@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets / local env — never commit these
+.env
+.env.*
+*.local
+secrets.*
+credentials.*
+*.pem
+*.key
+
+# Claude Code local project state
+.claude/
+
+# Work-in-progress / internal — not for public publish
+多核AI协同-分享deck/
